@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.header-ttl {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-decoration: none;
+  background: #c9e0f1 190px 70px;
+}
