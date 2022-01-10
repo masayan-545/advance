@@ -224,16 +224,16 @@ img {
   color: #62bdc2;
 }
 
-.top-service__content{
+.top-service__content {
   background: url(../img/Top3.png) center / cover;
 }
 
-.top-service__flex-item{
+.top-service__flex-item {
   display: flex;
   justify-content: space-between;
 }
 
-.top-service__txt{
+.top-service__txt {
   width: 1450px;
 }
 
@@ -253,7 +253,8 @@ img {
   height: 370px;
   font-size: 28px;
   margin-left: 5%;
-  align-items: center;
+  padding: 10px;
+  padding-top: 40px;
   background: rgba(201, 224, 241, 0.75);
 }
 
@@ -273,7 +274,8 @@ img {
   height: 370px;
   font-size: 28px;
   margin-left: 5%;
-  align-items: center;
+  padding: 10px;
+  padding-top: 40px;
   background: rgba(201, 224, 241, 0.75);
 }
 
@@ -289,7 +291,7 @@ img {
   background-color: rgba(201, 224, 241, 0.75);
 }
 
-.top-service__margin{
+.top-service__margin {
   height: 50px;
 }
 
