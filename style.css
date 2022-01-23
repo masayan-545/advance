@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+/*
+Theme Name: wp-theme
+Theme URL: テーマのサイトのURL
+Description: テーマの説明
+Author: テーマの作者
+Version: テーマのバージョン
+Tags: テーマの特徴を表すタグ（カンマ区切り/オプション）
+License: テーマのライセンス
+License URI: テーマのライセンスのURL
+*/
+
 /* 共通 */
 
 * {
@@ -118,7 +129,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(../img/Top1.png) center / cover;
+  background: url(./img/Top1.png) center / cover;
 }
 
 .top-view__main-copy {
@@ -183,9 +194,8 @@ img {
   color: #62bdc2;
 }
 
-.top-news__item {
+.top-news__list {
   font-size: 30px;
-  display: flex;
   padding: 20px;
 }
 
@@ -225,7 +235,7 @@ img {
 }
 
 .top-service__content {
-  background: url(../img/Top3.png) center / cover;
+  background: url(./img/Top3.png) center / cover;
 }
 
 .top-service__flex-item {
@@ -841,7 +851,7 @@ img {
 .recruit__message {
   display: flex;
   flex-direction: column;
-  background: url(../img/recruit2.png) center / cover;
+  background: url(./img/recruit2.png) center / cover;
   height: 790px;
 }
 
@@ -1203,7 +1213,7 @@ img {
 }
 
 .contact-form__item-input1 {
-  width: 60%;
+  width: 750px;
   height: 80px;
 }
 
